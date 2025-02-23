@@ -233,11 +233,11 @@ class Ui_MainWindow(object):
         def currentTime():
             return datetime.datetime.strftime(datetime.datetime.today() , '%d/%m/%Y-%Hh/%Mm')
               
-        three_Hour_Later = datetime.datetime.today() + datetime.timedelta(minutes=10)
+        three_Hour_Later = datetime.datetime.today() + datetime.timedelta(minutes=3)
         three_h=datetime.datetime.strftime(three_Hour_Later , '%d/%m/%Y-%Hh/%Mm')
         # This functiion will make the detector speak & print to take a break:
         def remind():
-            text = "Please take a break, you have been driving the vehicle continously for {0} hours".format(10)
+            text = "Please take a break, you have been driving the vehicle continously for {0} hours".format(3)
             print(text)
             speak(text)
 

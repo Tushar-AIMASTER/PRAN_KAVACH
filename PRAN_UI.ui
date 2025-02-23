@@ -55,7 +55,7 @@ border-radius: 7px;</string>
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>450</x>
+       <x>490</x>
        <y>10</y>
        <width>251</width>
        <height>71</height>
@@ -272,6 +272,33 @@ border-radius: 7px;
      </property>
      <property name="text">
       <string>ABOUT US</string>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="plainTextEdit">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>790</y>
+       <width>1211</width>
+       <height>87</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(96, 255, 255);
+color: black;
+
+ background-color: #2E2E2E;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 14px;
+    border-top: 1px solid #444444;
+   qproperty-alignment: 'AlignCenter';</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="plainText">
+      <string>                                                                                                               © 2025 ANARGHYA                 All Rights Reserved</string>
      </property>
     </widget>
    </widget>

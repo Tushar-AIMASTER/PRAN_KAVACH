@@ -35,7 +35,7 @@ This project implements a real-time drowsiness detection system using computer v
 * **Drowsiness Logging:** Records the date and time of each drowsiness event in a "History.txt" file.
 * **Break Reminders:**  Provides reminders to take breaks every (configurable) time interval.
 
-* **Configurable Parameters:**  Allows for adjustment of EAR threshold and consecutive frame count for drowsiness detection.
+* **Configurable Parameters:**  Allows for adjustment of EAR threshold and consecutive frame count for drowsiness detection. (By the Developer)
 
 
 The **GUI Application** is built using Python, OpenCV, dlib and PyQt5.
@@ -75,8 +75,10 @@ Via cmd:
 The GUI provides two main functionalities:
 
 **Start:** Click this button to initiate the drowsiness detection process. The program will access your webcam and analyze your facial features.
-History: Click this button to open the text file containing the timestamps of drowsiness detection events.
-About: Take to our website.
+
+**History:** Click this button to open the text file containing the timestamps of drowsiness detection events.
+
+**About:** Take to our website.
 
 
 # **Note:**
